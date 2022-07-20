@@ -2,6 +2,7 @@ version: "3.7"
 
 services:
   app:
+    build: .
     image: db_noti/node:v1
     ports:
       - "3003:3003"
