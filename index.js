@@ -31,7 +31,6 @@ function sendMessage() {
 
 const cron = require("node-cron");
 
-// running a task every minute
-cron.schedule("* * * * *", () => {
+cron.schedule("0 10 * * 1-5", () => {
   sendMessage();
 });
