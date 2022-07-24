@@ -6,7 +6,7 @@ const axios = require("axios");
 
 const body = {
   alias: "Huyz",
-  text: "Chào mọi người, nhớ điền daily report và vào họp lúc 10 giờ 30 phút sáng",
+  text: "Chào mọi người, nhớ điền daily report (https://docs.google.com/spreadsheets/d/1YcA3l1YD22-kWPa-BvsSqsE4u2hRD1Ee/edit#gid=709533652) và vào họp lúc 10 giờ 30 phút sáng (https://meet.google.com/ggy-qsbb-yrh)",
   attachments: [
     {
       title: "Rocket.Chat",
