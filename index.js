@@ -5,8 +5,8 @@ const WEBHOOK_URL = process.env.WEBHOOK_URL;
 const axios = require("axios");
 
 const body = {
-  alias: "Huyz",
-  text: "Chào mọi người, nhớ điền daily report (https://docs.google.com/spreadsheets/d/1YcA3l1YD22-kWPa-BvsSqsE4u2hRD1Ee/edit#gid=709533652) và vào họp lúc 10 giờ 30 phút sáng (https://meet.google.com/ggy-qsbb-yrh)",
+  alias: "Dan Abramov",
+  text: `Xin chào các mọi người, điền daily report (https://docs.google.com/spreadsheets/d/1YcA3l1YD22-kWPa-BvsSqsE4u2hRD1Ee/edit#gid=709533652) và lướt một vòng plan 6 tháng cũng như mục tiêu của your nha.`,
   attachments: [
     {
       title: "Rocket.Chat",
